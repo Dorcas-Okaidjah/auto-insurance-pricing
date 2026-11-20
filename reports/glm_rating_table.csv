@@ -1,0 +1,66 @@
+factor,level,exposure,relativity
+Area,A,46491,0.957
+Area,B,32175,0.982
+Area,C,78285,1.0
+Area,D,57950,1.059
+Area,E,47637,1.072
+Area,F,6144,1.0
+DrivAgeBand,"(17, 20]",1954,1.025
+DrivAgeBand,"(20, 22]",3030,0.753
+DrivAgeBand,"(22, 25]",7174,0.646
+DrivAgeBand,"(25, 30]",21798,0.598
+DrivAgeBand,"(30, 40]",62769,0.734
+DrivAgeBand,"(40, 50]",66050,1.0
+DrivAgeBand,"(50, 60]",56806,0.968
+DrivAgeBand,"(60, 70]",28819,0.892
+DrivAgeBand,"(70, 120]",20281,0.97
+Region,Alsace,878,1.02
+Region,Aquitaine,10817,1.097
+Region,Auvergne,1733,1.032
+Region,Basse-Normandie,4955,1.024
+Region,Bourgogne,3805,1.046
+Region,Bretagne,20781,1.034
+Region,Centre,76981,1.0
+Region,Champagne-Ardenne,898,1.029
+Region,Corse,1319,1.073
+Region,Franche-Comte,426,1.02
+Region,Haute-Normandie,2382,1.018
+Region,Ile-de-France,22666,1.022
+Region,Languedoc-Roussillon,10992,0.983
+Region,Limousin,1804,1.198
+Region,Lorraine,6098,0.926
+Region,Midi-Pyrenees,5211,0.867
+Region,Nord-Pas-de-Calais,8598,1.067
+Region,Pays-de-la-Loire,16497,1.046
+Region,Picardie,2679,1.092
+Region,Poitou-Charentes,8333,1.094
+Region,Provence-Alpes-Cotes-D'Azur,26887,1.125
+Region,Rhone-Alpes,33939,1.254
+VehAgeBand,"(-1, 0]",12540,1.006
+VehAgeBand,"(0, 2]",46922,1.038
+VehAgeBand,"(10, 15]",58406,0.892
+VehAgeBand,"(15, 200]",22680,0.709
+VehAgeBand,"(2, 5]",53908,0.997
+VehAgeBand,"(5, 10]",74226,1.0
+VehBrand,B1,71558,1.0
+VehBrand,B10,7057,1.038
+VehBrand,B11,5194,1.207
+VehBrand,B12,48683,0.783
+VehBrand,B13,5082,1.044
+VehBrand,B14,1711,0.992
+VehBrand,B2,71125,1.009
+VehBrand,B3,21343,1.066
+VehBrand,B4,10215,1.013
+VehBrand,B5,14956,1.093
+VehBrand,B6,11758,1.024
+VehGas,Diesel,127972,1.162
+VehGas,Regular,140710,1.0
+VehPowerBand,10,11558,1.141
+VehPowerBand,11,6457,1.251
+VehPowerBand,12,5922,1.154
+VehPowerBand,4,45135,0.898
+VehPowerBand,5,50935,0.971
+VehPowerBand,6,61967,1.0
+VehPowerBand,7,58359,0.979
+VehPowerBand,8,16871,1.017
+VehPowerBand,9,11479,1.089

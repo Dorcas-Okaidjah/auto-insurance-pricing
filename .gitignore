@@ -1,0 +1,7 @@
+# data is downloaded at run time and is not ours to republish
+data/
+models/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env

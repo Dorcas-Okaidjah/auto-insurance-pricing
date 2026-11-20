@@ -1,0 +1,106 @@
+{
+  "data": {
+    "policies": 677983,
+    "train": 508418,
+    "test": 169565,
+    "claims": 26373,
+    "exposure_years": 358341.1154629837,
+    "large_loss_cap": 31241.12150000067,
+    "large_loss_load": 1.3467723284807505,
+    "synthetic": false,
+    "sample": 1.0
+  },
+  "metrics": {
+    "glm": {
+      "poisson_deviance": 0.4559093177144668,
+      "gamma_deviance": 1.1819980320712589,
+      "gini_frequency": 0.2912880856339104,
+      "gini_pure_premium": 0.3195502749474578,
+      "predicted_to_actual": 0.9641061140896199,
+      "predicted_to_actual_raw": 0.9457660342127884
+    },
+    "gbm": {
+      "poisson_deviance": 0.4498109278859456,
+      "gamma_deviance": 1.1818361431494582,
+      "gini_frequency": 0.3172236195764312,
+      "gini_pure_premium": 0.34533676522720524,
+      "predicted_to_actual": 0.9658320712848641,
+      "predicted_to_actual_raw": 0.9474591587225407
+    },
+    "gini_gain_ci95": [
+      0.013538485839960309,
+      0.037088314582410166
+    ]
+  },
+  "gbm_rounds": {
+    "freq": 388,
+    "sev": 140
+  },
+  "business_case": {
+    "gbm_vs_glm": {
+      "challenger": {
+        "policies": 76914,
+        "share": 0.45359596614867453,
+        "premium": 8168773.373242146,
+        "losses": 6025164.997232208,
+        "loss_ratio": 0.7375850353455025
+      },
+      "incumbent": {
+        "policies": 92651,
+        "share": 0.5464040338513254,
+        "premium": 10635745.135111962,
+        "losses": 9226345.55813339,
+        "loss_ratio": 0.8674846417365063
+      },
+      "switch_threshold": 0.05
+    },
+    "glm_vs_gbm": {
+      "challenger": {
+        "policies": 62845,
+        "share": 0.3706248341344027,
+        "premium": 7215812.193704721,
+        "losses": 6788280.975577849,
+        "loss_ratio": 0.9407507836055016
+      },
+      "incumbent": {
+        "policies": 106720,
+        "share": 0.6293751658655973,
+        "premium": 11584446.09302186,
+        "losses": 8463229.57978775,
+        "loss_ratio": 0.7305683423988444
+      },
+      "switch_threshold": 0.05
+    },
+    "gini": {
+      "glm": 0.3195502749474578,
+      "gbm": 0.34533676522720524,
+      "gbm_capped": 0.3349109664872161,
+      "gain_kept_by_cap": 0.5956875624839287
+    },
+    "capped_vs_glm": {
+      "challenger": {
+        "policies": 76914,
+        "share": 0.45359596614867453,
+        "premium": 9003953.9225781,
+        "losses": 6025164.997232208,
+        "loss_ratio": 0.6691687950694247
+      },
+      "incumbent": {
+        "policies": 92651,
+        "share": 0.5464040338513254,
+        "premium": 10635745.135111962,
+        "losses": 9226345.55813339,
+        "loss_ratio": 0.8674846417365063
+      },
+      "switch_threshold": 0.05
+    },
+    "dislocation": {
+      "< -25%": 0.12275528558369947,
+      "-25% to -10%": 0.2377141509155781,
+      "-10% to +10%": 0.33680299590127677,
+      "+10% to +25%": 0.1552207118214254,
+      "> +25%": 0.14750685577802022
+    }
+  },
+  "seconds": 82.3
+}
