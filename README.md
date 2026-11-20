@@ -74,7 +74,7 @@ The GLM stacks the young-driver and high bonus-malus surcharges on top of each o
 
 ## Run it
 
-**Google Colab (easiest):** open [`walkthrough.ipynb`](walkthrough.ipynb) in Colab and choose *Runtime → Run all*. It takes about 3 minutes, and you don't need an account or an API key.
+**Google Colab (easiest):** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Dorcas-Okaidjah/auto-insurance-pricing/blob/main/walkthrough.ipynb) then choose *Runtime → Run all*. It takes about 3 minutes, and you don't need an account or an API key.
 
 **Locally (Python 3.10+):**
 

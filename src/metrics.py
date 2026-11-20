@@ -13,6 +13,10 @@ import pandas as pd
 from sklearn.metrics import mean_gamma_deviance, mean_poisson_deviance
 
 
+# np.trapezoid is numpy >= 2.0; np.trapz is the older name
+_trapezoid = getattr(np, "trapezoid", None) or np.trapz
+
+
 def poisson_deviance(df, freq_pred) -> float:
     return mean_poisson_deviance(df["ClaimNb"] / df["Exposure"], freq_pred,
                                  sample_weight=df["Exposure"])
@@ -35,7 +39,7 @@ def lorenz(pred, actual_loss, exposure):
 
 def gini(pred, actual_loss, exposure) -> float:
     x, y = lorenz(pred, actual_loss, exposure)
-    return float(1 - 2 * np.trapezoid(y, x))
+    return float(1 - 2 * _trapezoid(y, x))
 
 
 def bootstrap_gini_diff(pred_a, pred_b, loss, expo, n=200, seed=0):
